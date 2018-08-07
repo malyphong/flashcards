@@ -10,104 +10,126 @@
   </head>
 
   <body>
+    <div class="container">
+    <div class="jumbotron" id="headerr">
       <h1>Coding Flashcards</h1>
       <h2>Choose a term to see its flashcard</h2>
-
-      <div class="card" id="functionCard">
-        <h3 id="term-function">Function</h3>
-        <p class="definitions" id="def-function">a set of statements that performs a task or calculates a value</p>
-      </div>
-
-      <div class="card" id="booleanCard">
-        <h3 id="term-boolean">Boolean</h3>
-        <p class="definitions" id="def-boolean">a binary variable, having two possible values called “true” and “false.”</p>
-      </div>
-
-      <div class="card" id="chainingMethCard">
-        <h3 id="term-chainingMeth">Chaining Method</h3>
-        <p class="definitions" id="def-chainingMeth">syntax for invoking multiple method calls in object-oriented programming languages</p>
-      </div>
-
-          <div class="card" id="javascriptCard">
-            <h3 id="term-javascript">Javascript</h3>
-            <p class="definitions" id="def-javascript">an object-oriented computer programming language commonly used to create interactive effects within web browsers.</p>
+    </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Function</h3>
+            <p class="definitions">a set of statements that performs a task or calculates a value</p>
           </div>
-
-        <div class="card" id="operatorsCard">
-          <h3 id="term-operators">Operators</h3>
-          <p class="definitions" id="def-operators">a symbol that is used to perform an operation. Most often these operations are arithmetic (addition, subtraction, etc), but not always.</p>
         </div>
-
-        <div class="card" id="variablesCard">
-          <h3 id="term-variables">Variables</h3>
-          <p class="definitions" id="def-variables">containers for storing data values</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Boolean</h3>
+            <p class="definitions">a binary variable, having two possible values called “true” and “false.”</p>
+          </div>
         </div>
-
-        <div class="card" id="vmcCard">
-          <h3 id="term-vmc">Variable Naming Conventions</h3>
-          <p class="definitions" id="def-vmc">best practices for naming variables</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Chaining Method</h3>
+            <p class="definitions">syntax for invoking multiple method calls in object-oriented programming languages</p>
+          </div>
         </div>
-
-        <div class="card" id="methodsCard">
-          <h3 id="term-methods">Methods</h3>
-          <p class="definitions" id="def-methods">actions that can be performed on objects</p>
-
+        <div class="col-md-3">
+            <div class="card jumbotron">
+              <h3>Javascript</h3>
+              <p class="definitions">an object-oriented computer programming language commonly used to create interactive effects within web browsers.</p>
+            </div>
+          </div>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Operators</h3>
+            <p class="definitions">a symbol that is used to perform an operation. Most often these operations are arithmetic (addition, subtraction, etc), but not always.</p>
+          </div>
         </div>
-
-        <div class="card" id="argumentCard">
-          <h3 id="term-argument">Argument</h3>
-          <p class="definitions" id="def-arguments">JavaScript functions have a built-in object called the arguments object. The argument object contains an array of the arguments used when the function was called (invoked)</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Variables</h3>
+            <p class="definitions">containers for storing data values</p>
+          </div>
         </div>
-
-        <div class="card" id="parametersCard">
-          <h3 id="term-paramters">Parameters</h3>
-          <p class="definitions" id="def-parameters">the names listed in the function definition</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Variable Naming Conventions</h3>
+            <p class="definitions">best practices for naming variables</p>
+          </div>
         </div>
-
-        <div class="card" id="returnCard">
-          <h3 id="term-return">Return</h3>
-            <p class="definitions" id="def-return">The return statement ends function execution and specifies a value to be returned to the function caller.</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Methods</h3>
+            <p class="definitions">actions that can be performed on objects</p>
+          </div>
         </div>
-
-        <div class="card" id="stringsCard">
-          <h3 id="term-strings">Strings</h3>
-          <p class="definitions" id="def-strings">strings are used for storing and manipulating text</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3 >Argument</h3>
+            <p class="definitions">JavaScript functions have a built-in object called the arguments object. The argument object contains an array of the arguments used when the function was called (invoked)</p>
+          </div>
         </div>
-
-        <div class="card" id="undefinedCard">
-          <h3 id="term-undefined">Undefined</h3>
-          <p class="definitions" id="def-undefined">property represents the primitive value undefined. It is one of JavaScript's primitive types.</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Parameters</h3>
+            <p class="definitions">the names listed in the function definition</p>
+          </div>
         </div>
-
-        <div class="card" id="nanCard">
-          <h3 id="term-nan">NaN</h3>
-            <p class="definitions" id="def-nan">(Not-a-Number) is a weirdo Global Object in javascript frequently returned when some mathematical operation failed</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Return</h3>
+              <p class="definitions">The return statement ends function execution and specifies a value to be returned to the function caller.</p>
+          </div>
         </div>
-
-        <div class="card" id="escapeCard">
-          <h3 id="term-escape">Escape</h3>
-          <p class="definitions" id="def-escape">A character preceded by a backslash (\) is an escape sequence and has a special meaning to the compiler. The newline character (\n) has been used frequently in this tutorial in System.out.println() statements to advance to the next line after the string is printed.</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Strings</h3>
+            <p class="definitions">strings are used for storing and manipulating text</p>
+          </div>
         </div>
-
-        <div class="card" id="alertCard">
-          <h3 id="term-alert">Alert</h3>
-          <p class="definitions" id="def-alert">This function will display text in a dialog box that pops up on the screen.</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Undefined</h3>
+            <p class="definitions">property represents the primitive value undefined. It is one of JavaScript's primitive types.</p>
+          </div>
         </div>
-
-        <div class="card" id="commentsCard">
-          <h3 id="term-comments">Comments</h3>
-          <p class="definitions" id="def-comments">Single-line comments are used to comment a part or a full line of code in JavaScript. You can use it for either – explaining the code or debugging (commenting out to prevent execution of the browser). JavaScript syntax for single-line comment is fairly simple. All you have to do is to up two forward slashes: “//”.</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>NaN</h3>
+              <p class="definitions">(Not-a-Number) is a weirdo Global Object in javascript frequently returned when some mathematical operation failed</p>
+          </div>
         </div>
-
-        <div class="card" id="jqueryCard">
-          <h3 id="term-jquery">jQuery</h3>
-          <p class="definitions" id="def-jquery">JQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Escape</h3>
+            <p class="definitions">A character preceded by a backslash (\) is an escape sequence and has a special meaning to the compiler. The newline character (\n) has been used frequently in this tutorial in System.out.println() statements to advance to the next line after the string is printed.</p>
+          </div>
         </div>
-
-        <div class="card" id="atrributesCard">
-          <h3 id="term-attributes">Attributes</h3>
-          <p class="definitions" id="def-attributes">The CSS attribute selector matches elements based on the presence or value of a given attribute.</p>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Alert</h3>
+            <p class="definitions">This function will display text in a dialog box that pops up on the screen.</p>
+          </div>
         </div>
-
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Comments</h3>
+            <p class="definitions">Single-line comments are used to comment a part or a full line of code in JavaScript. You can use it for either – explaining the code or debugging (commenting out to prevent execution of the browser). JavaScript syntax for single-line comment is fairly simple. All you have to do is to up two forward slashes: “//”.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>jQuery</h3>
+            <p class="definitions">JQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card jumbotron">
+            <h3>Attributes</h3>
+            <p class="definitions">The CSS attribute selector matches elements based on the presence or value of a given attribute.</p>
+          </div>
+        </div>
+    </div><!--End of Container-->
   </body>
 </html>
